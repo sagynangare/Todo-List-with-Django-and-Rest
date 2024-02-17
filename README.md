@@ -13,12 +13,12 @@ Create a TO-DO list app
 Tech Stack to be used: Python, Django (Use latest versions)
 Requirements:
 1. The app should have the following fields:
-   Title
-   Description
-   Date & time of the To-do task
-   Status (In progress, completed, pending)
-   Task Created & Modified at
-   is deleted
+  * Title
+  * Description
+  * Date & time of the To-do task
+  * Status (In progress, completed, pending)
+  * Task Created & Modified at
+  * is deleted
 
 2. Login & Authentication are not required to view the todo list but are handled authentication also using DjangoRest Framework
 
