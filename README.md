@@ -103,4 +103,4 @@ After login, you will get a message like
 
 #### If you have any questions or queries please reach out to me
 ***email id:*** sagy9975340919@gmail.com
-***LinkedIn:***https://www.linkedin.com/in/sagar-nangare-0629a09a/***
+***LinkedIn:*** https://www.linkedin.com/in/sagar-nangare-0629a09a/
