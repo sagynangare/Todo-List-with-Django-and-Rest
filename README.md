@@ -1,8 +1,9 @@
 # Django-and React-todo-app
 This application allows users to add Add/Update/Delete Todo Tasks
 
-# TechStack Used :
+# Tech Stack Used :
 >Backend : Python==3.12 , Django==5.0.2  , Django REST Framework ,Postgresql
+
 Frontend : HTML5 , Bootstrap , Javascript
 
 # Note: This project makes use of Django's Class Based Views
