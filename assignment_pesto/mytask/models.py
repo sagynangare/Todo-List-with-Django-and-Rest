@@ -6,8 +6,8 @@ from django.db.models.signals import post_save
 # Create your models here.
 CHOICES = (
         ('inprogress', 'IN PROGRESS'),
-        ('completed', 'COMPLETED'),
-        ('pending', 'PENDING'),
+        ('done', 'DONE'),
+        ('to-do', 'TO-DO'),
     )
 
 
