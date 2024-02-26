@@ -5,11 +5,11 @@ from django.core.exceptions import ValidationError
 
 CHOICES = (
         ('inprogress', 'IN PROGRESS'),
-        ('completed', 'COMPLETED'),
-        ('pending', 'PENDING'),
+        ('done', 'DONE'),
+        ('to-do', 'TO-DO'),
     )
 
-#This is form to be used for Update
+#This is the form to be used for the Update
 class TodoTaskForm(forms.ModelForm):
     title = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Title',"maxlength":"20" ,'pattern':'[A-Za-z ]+', 'title':'Enter Characters Only '}))
     description = forms.CharField(required=True,widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Enter Description',"maxlength":"150"}))
